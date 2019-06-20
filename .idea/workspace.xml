@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Animal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FP6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/CoffeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/ContinentHiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/CreditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/GasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/HiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/HiperMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/JumbHiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/LargeGasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/SuperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HamiltonPath/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/GestaoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/PPod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/FrasesFamosas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/GerirFrases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Quotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/AbsoluteLayout.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Resources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Alerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Armazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/CorMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/EncomendaFornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Estacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/EstadoVenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoArmazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoArmazens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoEncomendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoPessoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoVendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/ItemEncomenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/ItemVenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Palmilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Quebra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Sola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/TipoMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/VendaCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/FrasesFamosas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/GerirFrases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Quotes.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/AbsoluteLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Resources.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Resources__2_.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="213" />
+    <option name="y" value="9" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\2019.PP.FP.06\PP_Ficha_Pratica_6\SelfAssessmentTests\src\lib" />
+      <recent name="C:\GitHub\2019.PP.FP.06\PP_Ficha_Pratica_6\SelfAssessmentTests\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SelfAssessmentTests" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="" />
+      <created>1561026474294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561026474294</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/data/teste_A.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/views/MultipleQuestionPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/interfaces/controller/IScoreStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SelfAssessmentTests</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>AbsoluteLayout</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
