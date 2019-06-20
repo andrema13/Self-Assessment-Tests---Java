@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="" />
+    <list default="true" id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Animal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Animal/src/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FP6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/CoffeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/ContinentHiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/CreditService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/GasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/HiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/HiperMarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/JumbHiperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/LargeGasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/MarketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GasStation/src/SuperMarket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HamiltonPath/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/GestaoPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PPodDemo/src/PPod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/FrasesFamosas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/GerirFrases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quotes/src/test2019/Quotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/AbsoluteLayout.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Resources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Alerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Armazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/CorMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/EncomendaFornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Estacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/EstadoVenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Fornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoArmazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoArmazens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoEncomendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoPessoas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/GestaoVendas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/ItemEncomenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/ItemVenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Palmilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Quebra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/Sola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/TipoMaterial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoesInc/src/VendaCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/FrasesFamosas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/GerirFrases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/Quotes.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,18 +147,23 @@
             </path>
             <path>
               <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -142,14 +219,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
@@ -157,18 +239,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -179,12 +257,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/views/MultipleQuestionPanel.class" />
-    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/interfaces/controller/IScoreStrategy.class" />
+    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/views/MultipleQuestionPanel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/interfaces/controller/IScoreStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
