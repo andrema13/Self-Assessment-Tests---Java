@@ -4,24 +4,27 @@ import interfaces.models.IQuestionMetadata;
 
 public class Question implements IQuestion {
 
+    private String title;
+    private String question_description;
+
     @Override
     public String getTitle() {
-        return null;
+        return this.title;
     }
 
     @Override
     public void setTitle(String s) throws QuestionException {
-
+        this.title = s;
     }
 
     @Override
     public String getQuestion_description() {
-        return null;
+        return this.question_description;
     }
 
     @Override
     public void setQuestion_description(String s) throws QuestionException {
-
+        this.question_description = s;
     }
 
     @Override
