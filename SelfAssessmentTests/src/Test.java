@@ -3,11 +3,16 @@ import interfaces.controller.ITest;
 import interfaces.controller.ITestStatistics;
 import interfaces.exceptions.TestException;
 import interfaces.models.IQuestion;
+import com.google.gson.*;
+
+import java.io.FileReader;
+import java.util.Iterator;
 
 public class Test implements ITest{
 
     private IQuestion[] iQuestions;
-    private static final int MAX_TAM = 100;
+    private static final int MAX_TAM = 1;
+    private int questions_count = 0;
 
     Test(){
         iQuestions = new IQuestion[MAX_TAM];
@@ -16,9 +21,13 @@ public class Test implements ITest{
     @Override
     public boolean addQuestion(IQuestion iQuestion) throws TestException {
 
-        for(int i = 0 ; i < iQuestions.length ; i++){
-            if(iQuestions[i] == null){
+        if(questions_count == MAX_TAM)
+            throw new TestException("Tamanho máximo excedido");
+
+        for (int i = 0; i < iQuestions.length; i++) {
+            if (iQuestions[i] == null) {
                 iQuestions[i] = iQuestion;
+                questions_count++;
                 return true;
             }
         }
@@ -93,6 +102,33 @@ public class Test implements ITest{
 
     @Override
     public boolean loadFromJSONFile(String s) throws TestException {
+        JsonParser parser = new JsonParser();
+
+        try {
+            JsonElement jsonElement = parser.parse(new FileReader(s));
+            JsonArray jsonArray = jsonElement.getAsJsonArray();
+            Iterator<JsonElement> iterator = jsonArray.iterator();
+
+            while(iterator.hasNext()){
+
+                JsonObject jsonObject = iterator.next().getAsJsonObject();
+
+                String type = jsonObject.get("type").toString();
+                String title = jsonObject.getAsJsonObject("question").get("title").toString();
+
+                System.out.println(title);
+                //TODO preencher para cada pergunta de cada tipo
+                if(type.equals("MultipleChoice")) {
+                    //addQuestion(new QuestionMultipleChoice());
+                }
+            }
+
+            System.out.println(jsonElement.toString());
+        }
+        catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
         return false;
     }
 
