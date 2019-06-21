@@ -40,12 +40,12 @@ public class Test implements ITest{
     @Override
     public boolean removeQuestion(int i) {
 
-        for(int k = 0; k < iQuestions.length ; k++){
+        /*for(int k = 0; k < iQuestions.length ; k++){
             if(iQuestions[k] != null && (int)iQuestions[k].getMark() == i){
                 iQuestions[k] = null;
                 return true;
             }
-        }
+        }*/
         return false;
     }
 

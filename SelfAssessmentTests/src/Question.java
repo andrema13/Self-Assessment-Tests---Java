@@ -7,6 +7,13 @@ public class Question implements IQuestion {
     private String title;
     private String question_description;
     private float mark;
+    private String answer;
+
+    Question(String title, String question_description,float mark){
+        this.title = title;
+        this.question_description = question_description;
+        this.mark = mark;
+    }
 
     @Override
     public String getTitle() {
@@ -50,7 +57,7 @@ public class Question implements IQuestion {
 
     @Override
     public void answer(String s) {
-
+        this.answer = s;
     }
 
     @Override
