@@ -6,6 +6,7 @@ public class Question implements IQuestion {
 
     private String title;
     private String question_description;
+    private float mark;
 
     @Override
     public String getTitle() {
@@ -59,11 +60,11 @@ public class Question implements IQuestion {
 
     @Override
     public void setMark(float v) {
-
+        this.mark = v;
     }
 
     @Override
     public float getMark() {
-        return 0;
+        return this.mark;
     }
 }

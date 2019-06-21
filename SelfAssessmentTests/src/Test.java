@@ -6,34 +6,84 @@ import interfaces.models.IQuestion;
 
 public class Test implements ITest{
 
+    private IQuestion[] iQuestions;
+    private static final int MAX_TAM = 100;
+
+    Test(){
+        iQuestions = new IQuestion[MAX_TAM];
+    }
+
     @Override
     public boolean addQuestion(IQuestion iQuestion) throws TestException {
+
+        for(int i = 0 ; i < iQuestions.length ; i++){
+            if(iQuestions[i] == null){
+                iQuestions[i] = iQuestion;
+                return true;
+            }
+        }
         return false;
     }
 
     @Override
     public IQuestion getQuestion(int i) throws TestException {
+
+        for(int k = 0; k < iQuestions.length ; k++){
+
+            if(iQuestions[k] != null && (int)iQuestions[k].getMark() == i){
+                return iQuestions[k];
+            }
+        }
         return null;
     }
 
     @Override
     public boolean removeQuestion(int i) {
+
+        for(int k = 0; k < iQuestions.length ; k++){
+            if(iQuestions[k] != null && (int)iQuestions[k].getMark() == i){
+                iQuestions[k] = null;
+                return true;
+            }
+        }
         return false;
     }
 
     @Override
     public boolean removeQuestion(IQuestion iQuestion) {
+
+        for(int i = 0; i < iQuestions.length ; i++){
+            if(iQuestions[i] == iQuestion){
+                iQuestions[i] = null;
+                return true;
+            }
+        }
         return false;
     }
 
     @Override
     public int numberQuestions() {
-        return 0;
+
+        int numberOfQuestions = 0;
+
+        for(int i = 0; i < iQuestions.length ; i++){
+            if(iQuestions[i] != null){
+                numberOfQuestions++;
+                return numberOfQuestions;
+            }
+        }
+        return numberOfQuestions;
     }
 
     @Override
     public boolean isComplete() {
-        return false;
+
+        for(int i = 0; i < iQuestions.length ; i++){
+            if(iQuestions[i] == null){
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
