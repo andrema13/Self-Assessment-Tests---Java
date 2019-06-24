@@ -4,11 +4,11 @@ public class QuestionMultipleChoice extends Question implements IQuestionMultipl
 
     private String correct_answer;
     private String user_answer;
-    private static final int MAX_OPTIONS = 4;
-    private String[] question_options = new String[MAX_OPTIONS];
+    private String[] question_options;
 
-    QuestionMultipleChoice(String title, String question_description, float mark) {
+    QuestionMultipleChoice(String title, String question_description, float mark, String[] question_options) {
         super(title, question_description, mark);
+        this.question_options = question_options;
     }
 
     @Override
