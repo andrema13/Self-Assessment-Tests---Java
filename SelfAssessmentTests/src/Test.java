@@ -134,7 +134,7 @@ public class Test implements ITest {
 
     private IQuestionMultipleChoice parseMultipleChoice(JsonObject question) {
         String title = question.get("title").getAsString();
-        String score = question.get("score").getAsString();
+        int score = question.get("score").getAsInt();
         float mark = question.get("mark").getAsFloat();
         String question_description = question.get("question_description").getAsString();
         String correct_answer = question.get("correct_answer").getAsString();
@@ -150,7 +150,7 @@ public class Test implements ITest {
 
     private IQuestionNumeric parseQuestionNumeric(JsonObject question) {
         String title = question.get("title").getAsString();
-        String score = question.get("score").getAsString();
+        int score = question.get("score").getAsInt();
         float mark = question.get("mark").getAsFloat();
         String question_description = question.get("question_description").getAsString();
         String correct_answer = String.valueOf(question.get("correct_answer").getAsDouble());
@@ -160,7 +160,7 @@ public class Test implements ITest {
 
     private IQuestionYesNo parseQuestionYesNo(JsonObject question) {
         String title = question.get("title").getAsString();
-        String score = question.get("score").getAsString();
+        int score = question.get("score").getAsInt();
         float mark = question.get("mark").getAsFloat();
         String question_description = question.get("question_description").getAsString();
         String correct_answer = question.get("correct_answer").getAsString().toUpperCase();//conversao para Maius.

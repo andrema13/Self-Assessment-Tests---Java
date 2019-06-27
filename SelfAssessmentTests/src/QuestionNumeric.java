@@ -3,7 +3,7 @@ import interfaces.models.IQuestionNumeric;
 public class QuestionNumeric extends Question implements IQuestionNumeric {
 
     QuestionNumeric(String title, String question_description,
-                    float mark, String score, String correct_answer) {
+                    float mark, int score, String correct_answer) {
         super(title, question_description, mark, score);
         this.correct_answer = correct_answer;
         // This is done because on NumericQuestionPanel is reading and trying to convert a null value

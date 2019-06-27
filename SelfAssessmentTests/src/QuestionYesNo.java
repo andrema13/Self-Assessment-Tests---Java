@@ -4,7 +4,7 @@ import interfaces.models.IQuestionYesNo;
 
 public class QuestionYesNo extends Question implements IQuestionYesNo {
 
-    QuestionYesNo(String title, String question_description, float mark, String score, String correct_answer) {
+    QuestionYesNo(String title, String question_description, float mark, int score, String correct_answer) {
         super(title, question_description, mark, score);
         this.correct_answer = correct_answer;
     }

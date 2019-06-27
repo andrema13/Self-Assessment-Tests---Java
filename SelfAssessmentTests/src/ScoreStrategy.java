@@ -3,35 +3,29 @@ import interfaces.models.IQuestion;
 
 public class ScoreStrategy implements IScoreStrategy {
 
-    //private String score;
-
     @Override
     public String CalculateScore(IQuestion[] iQuestions) {
 
-        /*for(int i = 0; i < iQuestions.length; i++){
+        int score = 0;
 
-            if(iQuestions[i].isDone() && iQuestions[i].evaluateAnswer()){
-                iQuestions[i].
+        for (IQuestion iQuestion : iQuestions) {
+            Question question = (Question) iQuestion;
+            if (iQuestion.evaluateAnswer()) {
+                score += question.getScore();
             }
-            switch (score){
-                case "4":
-                    System.out.println("Não Satisfaz");
-                    break;
-                case "8":
-                    System.out.println("Satisfaz");
-                    break;
-                case "12":
-                    System.out.println("Satisfaz Bastante");
-                    break;
-                case "16":
-                    System.out.println("Excelente");
-                    break;
+        }
+        switch (score) {
+            case 4:
+                return "Não Satisfaz";
+            case 8:
+                return "Satisfaz";
+            case 12:
+                return "Satisfaz Bastante";
+            case 16:
+                return "Excelente";
 
-                    default:
-                        System.out.println("Zero");
-                        break;
-            }
-        }*/
-        return "abc";
+            default:
+                return "Zero";
+        }
     }
 }

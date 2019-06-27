@@ -1,22 +1,21 @@
 import interfaces.exceptions.QuestionException;
 import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMetadata;
-import java.util.Date;
 
 public class Question implements IQuestion {
 
+    protected String correct_answer;
     protected String answer;
     protected String title;
-    protected String question_description;
-    protected String score;
-    protected float mark;
-    protected boolean isDone;
     protected IQuestionMetadata question_metadata;
-    protected String correct_answer;
-    protected Date date = new Date();
+    protected String question_description;
+    protected boolean isDone;
+    protected float mark;
 
-    Question(String title, String question_description, float mark, String
-             score) {
+    private int score;
+
+    Question(String title, String question_description, float mark, int
+            score) {
         this.title = title;
         this.question_description = question_description;
         this.mark = mark;
@@ -57,9 +56,8 @@ public class Question implements IQuestion {
     @Override
     public boolean isDone() {
 
-        if(answer != null){
-            long time = date.getTime();
-            this.question_metadata.setTimestamp_finish(time);
+        if (answer != null) {
+            this.question_metadata.setTimestamp_finish(System.currentTimeMillis());
             return true;
         }
         return false;
@@ -88,6 +86,14 @@ public class Question implements IQuestion {
     @Override
     public void setMark(float v) {
         this.mark = v;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 
     @Override

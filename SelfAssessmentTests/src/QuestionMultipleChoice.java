@@ -5,7 +5,7 @@ public class QuestionMultipleChoice extends Question implements IQuestionMultipl
     private String[] question_options;
 
     QuestionMultipleChoice(String title, String question_description,
-                           float mark, String score, String[] question_options, String correct_answer) {
+                           float mark, int score, String[] question_options, String correct_answer) {
 
         super(title, question_description, mark, score);
         this.question_options = question_options;
