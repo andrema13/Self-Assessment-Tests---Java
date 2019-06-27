@@ -4,8 +4,7 @@ import interfaces.controller.ITestStatistics;
 import interfaces.exceptions.TestException;
 import interfaces.models.IQuestion;
 
-public class MultipleChoiceTest implements ITest
-{
+public class MultipleChoiceTest implements ITest {
     @Override
     public boolean addQuestion(IQuestion iQuestion) throws TestException {
         return false;
@@ -47,13 +46,13 @@ public class MultipleChoiceTest implements ITest
     }
 
     @Override
-    public void setScoreStrategy(IScoreStrategy iScoreStrategy) {
-
+    public IScoreStrategy getScoreStrategy() {
+        return null;
     }
 
     @Override
-    public IScoreStrategy getScoreStrategy() {
-        return null;
+    public void setScoreStrategy(IScoreStrategy iScoreStrategy) {
+
     }
 
     @Override

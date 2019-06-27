@@ -1,14 +1,15 @@
 import interfaces.models.IQuestionMultipleChoice;
 
-public class QuestionMultipleChoice extends Question implements IQuestionMultipleChoice{
+public class QuestionMultipleChoice extends Question implements IQuestionMultipleChoice {
 
-    private String correct_answer;
-    private String user_answer;
     private String[] question_options;
 
-    QuestionMultipleChoice(String title, String question_description, float mark, String[] question_options) {
-        super(title, question_description, mark);
+    QuestionMultipleChoice(String title, String question_description,
+                           float mark, String score, String[] question_options, String correct_answer) {
+
+        super(title, question_description, mark, score);
         this.question_options = question_options;
+        this.correct_answer = correct_answer;
     }
 
     @Override
@@ -19,10 +20,10 @@ public class QuestionMultipleChoice extends Question implements IQuestionMultipl
     @Override
     public void setOptions(String[] strings) {
 
-        for(int i = 0; i < question_options.length; i++){
-            for(int k = 0; k < strings.length; k++){
-                if(question_options[i] == null){
-                    question_options[i] =  strings[k];
+        for (int i = 0; i < question_options.length; i++) {
+            for (String string : strings) {
+                if (question_options[i] == null) {
+                    question_options[i] = string;
                 }
             }
         }
@@ -40,11 +41,11 @@ public class QuestionMultipleChoice extends Question implements IQuestionMultipl
 
     @Override
     public String getUser_answer() {
-        return this.user_answer;
+        return answer;
     }
 
     @Override
     public void setUser_answer(String s) {
-        this.user_answer = s;
+        answer = s;
     }
 }

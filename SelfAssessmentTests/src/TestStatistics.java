@@ -1,10 +1,32 @@
+import interfaces.controller.ITest;
 import interfaces.controller.ITestStatistics;
+import interfaces.exceptions.TestException;
 import interfaces.models.IQuestion;
+import interfaces.models.IQuestionMetadata;
 
-public class TestStatistics implements ITestStatistics{
+public class TestStatistics implements ITestStatistics {
+
+    private ITest test;
+
+    TestStatistics(ITest iTest) {
+        this.test = iTest;
+    }
+
     @Override
     public double meanTimePerAnswer() {
-        return 0;
+
+        long totalTime = 0;
+
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                IQuestionMetadata metadata = test.getQuestion(i).getQuestion_metadata();
+                totalTime += metadata.getTimestamp_finish() - metadata.getTimestamp_start();
+            } catch (TestException e) {
+                e.printStackTrace();
+            }
+        }
+        // Time will be returned in seconds
+        return (totalTime / test.numberQuestions()) / 1000;
     }
 
     @Override
@@ -14,31 +36,77 @@ public class TestStatistics implements ITestStatistics{
 
     @Override
     public double correctAnswerPecentage() {
-        return 0;
+        return correctAnswer() / test.numberQuestions() * 100;
     }
 
     @Override
     public double incorrectAnswerPecentage() {
-        return 0;
+        return incorrectAnswer() / test.numberQuestions() * 100;
     }
 
     @Override
     public int correctAnswer() {
-        return 0;
+        int correct_answers = 0;
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                if (test.getQuestion(i).evaluateAnswer()) {
+                    correct_answers++;
+                }
+            } catch (TestException e) {
+                e.printStackTrace();
+            }
+        }
+        return correct_answers;
     }
 
     @Override
     public int incorrectAnswer() {
-        return 0;
+        int correct_answers = 0;
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                if (!test.getQuestion(i).evaluateAnswer()) {
+                    correct_answers++;
+                }
+            } catch (TestException e) {
+                e.printStackTrace();
+            }
+        }
+        return correct_answers;
     }
 
     @Override
     public IQuestion[] incorrectAnswers() {
-        return new IQuestion[0];
+        IQuestion[] tempArray = new IQuestion[test.numberQuestions()];
+        int temp = 0;
+
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                if (!test.getQuestion(i).evaluateAnswer()) {
+                    tempArray[temp] = test.getQuestion(i);
+                    temp++;
+                }
+            } catch (TestException e) {
+                e.printStackTrace();
+            }
+        }
+        return tempArray;
     }
 
     @Override
     public IQuestion[] correctAnswers() {
-        return new IQuestion[0];
+        IQuestion[] tempArray = new IQuestion[test.numberQuestions()];
+        int temp = 0;
+
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                if (test.getQuestion(i).evaluateAnswer()) {
+                    tempArray[temp] = test.getQuestion(i);
+                    temp++;
+                }
+            } catch (TestException e) {
+                e.printStackTrace();
+            }
+        }
+        return tempArray;
     }
 }

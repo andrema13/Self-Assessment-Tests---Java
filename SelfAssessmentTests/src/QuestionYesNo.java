@@ -4,16 +4,10 @@ import interfaces.models.IQuestionYesNo;
 
 public class QuestionYesNo extends Question implements IQuestionYesNo {
 
-    private String title;
-    private String question_description;
-    private String user_answer;
-    private String correct_answer;
-    private float mark;
-
-    QuestionYesNo(String title, String question_description, float mark) {
-        super(title, question_description, mark);
+    QuestionYesNo(String title, String question_description, float mark, String score, String correct_answer) {
+        super(title, question_description, mark, score);
+        this.correct_answer = correct_answer;
     }
-
 
     @Override
     public String getCorrect_answer() {
@@ -27,12 +21,12 @@ public class QuestionYesNo extends Question implements IQuestionYesNo {
 
     @Override
     public String getUser_answer() {
-        return this.user_answer;
+        return answer;
     }
 
     @Override
     public void setUser_answer(String s) {
-        this.user_answer = s;
+        this.answer = s;
     }
 
     @Override
@@ -54,48 +48,48 @@ public class QuestionYesNo extends Question implements IQuestionYesNo {
     public void setQuestion_description(String s) throws QuestionException {
         this.question_description = s;
     }
-
     @Override
     public IQuestionMetadata getQuestion_metadata() {
-        return null;
+        return question_metadata;
     }
 
     @Override
     public void setQuestion_metadata(IQuestionMetadata iQuestionMetadata) {
-
+        this.question_metadata = iQuestionMetadata;
     }
 
     @Override
     public boolean isDone() {
-        return false;
-    }
 
-    @Override
-    public void setDone(boolean b) {
-
-    }
-
-    @Override
-    public void answer(String s) {
-
-    }
-
-    @Override
-    public boolean evaluateAnswer() {
-
-        if(user_answer.equals(correct_answer)){
+        if(answer != null){
+            this.question_metadata.setTimestamp_finish(System.currentTimeMillis());
             return true;
         }
         return false;
     }
 
     @Override
-    public void setMark(float v) {
-        this.mark = v;
+    public void setDone(boolean b) {
+        this.isDone = b;
+    }
+
+    @Override
+    public void answer(String s) {
+        this.answer = s;
+    }
+
+    @Override
+    public boolean evaluateAnswer() {
+        return isDone && answer.equals(correct_answer);
     }
 
     @Override
     public float getMark() {
         return this.mark;
+    }
+
+    @Override
+    public void setMark(float v) {
+        this.mark = v;
     }
 }
