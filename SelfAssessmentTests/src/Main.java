@@ -12,7 +12,7 @@ public class Main {
 
         try {
             demoTest.loadFromJSONFile("./src/data/teste_A.json");
-            demoTest.removeQuestion(0);
+            //demoTest.removeQuestion(0);
             testWindow.startTest(demoTest);
         } catch (TestException e) {
             System.out.println(e.getMessage());
@@ -20,7 +20,6 @@ public class Main {
         }
         // Add test to list of tests
         // Save new file with only this test
-        System.out.println();
         System.out.println("Teste Efetuado!");
         System.out.println(demoTest.toString());
 

@@ -1,23 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Test.java" line="198" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/src/Test.java" line="211" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Material_para_os_alunos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javadoc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Resources__2_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Resources__2_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SelfAssessmentTests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SelfAssessmentTests.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/MultipleChoiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/MultipleChoiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/QuestionNumeric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/QuestionNumeric.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/IScoreStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/ITest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/ITestStatistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/class-use/IScoreStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/class-use/ITest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/class-use/ITestStatistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/controller/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/QuestionException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/TestException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/class-use/QuestionException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/class-use/TestException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/exceptions/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/IQuestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/IQuestionMetadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/IQuestionMultipleChoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/IQuestionNumeric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/IQuestionYesNo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/class-use/IQuestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/class-use/IQuestionMetadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/class-use/IQuestionMultipleChoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/class-use/IQuestionNumeric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/class-use/IQuestionYesNo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/interfaces/models/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-migrate-3.0.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/jquery/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/member-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/package-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/type-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/MultipleQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/NumericQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/TestResults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/TestWindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/YesNoQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/class-use/MultipleQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/class-use/NumericQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/class-use/TestResults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/class-use/TestWindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/class-use/YesNoQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/javadoc/views/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/lib/Resources.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MultipleChoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleChoiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionNumeric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionYesNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionYesNo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/IScoreStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/ITest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/ITestStatistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/class-use/IScoreStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/class-use/ITest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/class-use/ITestStatistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/controller/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/QuestionException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/TestException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/class-use/QuestionException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/class-use/TestException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/exceptions/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/IQuestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/IQuestionMetadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/IQuestionMultipleChoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/IQuestionNumeric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/IQuestionYesNo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/class-use/IQuestion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/class-use/IQuestionMetadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/class-use/IQuestionMultipleChoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/class-use/IQuestionNumeric.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/class-use/IQuestionYesNo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/interfaces/models/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-migrate-3.0.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip-utils/dist/jszip-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip/dist/jszip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/jquery/jszip/dist/jszip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/member-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/package-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/type-search-index.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/MultipleQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/NumericQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/TestResults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/TestWindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/YesNoQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/class-use/MultipleQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/class-use/NumericQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/class-use/TestResults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/class-use/TestWindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/class-use/YesNoQuestionPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javadoc/views/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/AbsoluteLayout.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Resources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/Resources.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/gson-2.8.5.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +266,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="119">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,30 +275,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
+            <state relative-caret-position="363">
+              <caret line="205" column="48" lean-forward="true" selection-start-line="205" selection-start-column="48" selection-end-line="205" selection-end-column="48" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#getQuestion#0;class#Test#0" />
                 <element signature="method#removeQuestion#1;class#Test#0" />
                 <element signature="method#numberQuestions#0;class#Test#0" />
-                <element signature="method#loadFromJSONFile#0;class#Test#0" />
-                <element signature="method#parseMultipleChoice#0;class#Test#0" />
                 <element signature="method#parseQuestionNumeric#0;class#Test#0" />
                 <element signature="method#parseQuestionYesNo#0;class#Test#0" />
-                <element signature="method#toString#0;class#Test#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/src/lib/Resources.jar!/views/TestWindow.class">
+        <entry file="file://$PROJECT_DIR$/src/MultipleChoiceTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/teste_A.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="169" column="45" lean-forward="true" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
+            <state relative-caret-position="425">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -77,14 +309,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestStatistics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="68">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="method#meanTimePerAnswer#0;class#TestStatistics#0" />
+                <element signature="method#standardDeviationTimePerAnsewer#0;class#TestStatistics#0" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1836#1837#0" expanded="true" />
                 <element signature="method#correctAnswer#0;class#TestStatistics#0" />
                 <element signature="method#incorrectAnswer#0;class#TestStatistics#0" />
                 <element signature="method#incorrectAnswers#0;class#TestStatistics#0" />
@@ -95,51 +328,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuestionMultipleChoice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="method#setOptions#0;class#QuestionMultipleChoice#0" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/QuestionNumeric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuestionYesNo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="657">
+              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setTitle#0;class#Question#0" />
                 <element signature="method#setQuestion_description#0;class#Question#0" />
                 <element signature="method#setQuestion_metadata#0;class#Question#0" />
+                <element signature="e#1509#1510#0" expanded="true" />
                 <element signature="method#equals#0;class#Question#0" />
               </folding>
             </state>
@@ -188,13 +386,13 @@
         <option value="$PROJECT_DIR$/src/QuestionMetadata.java" />
         <option value="$PROJECT_DIR$/src/QuestionMultipleChoice.java" />
         <option value="$PROJECT_DIR$/src/ScoreStrategy.java" />
-        <option value="$PROJECT_DIR$/src/MultipleChoiceTest.java" />
-        <option value="$PROJECT_DIR$/src/TestStatistics.java" />
-        <option value="$PROJECT_DIR$/src/Question.java" />
         <option value="$PROJECT_DIR$/src/QuestionYesNo.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/QuestionNumeric.java" />
+        <option value="$PROJECT_DIR$/src/Question.java" />
+        <option value="$PROJECT_DIR$/src/TestStatistics.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/MultipleChoiceTest.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
       </list>
     </option>
   </component>
@@ -228,22 +426,7 @@
               <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
               <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources.jar" type="ab9368bb:PsiFileNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,18 +437,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Material para os alunos/javadoc" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src\data" />
+      <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src\Resources" />
       <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src" />
+      <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src\data" />
       <recent name="C:\GitHub\2019.PP.FP.06\PP_Ficha_Pratica_6\SelfAssessmentTests\src\lib" />
       <recent name="C:\GitHub\2019.PP.FP.06\PP_Ficha_Pratica_6\SelfAssessmentTests\src" />
     </key>
@@ -323,8 +507,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4943182" visible="true" weight="0.26234818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4943182" visible="true" weight="0.26234818" />
       <window_info id="Structure" order="1" sideWeight="0.5056818" side_tool="true" weight="0.2582996" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,12 +518,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5029586" side_tool="true" weight="0.27044535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979757" weight="0.29129663" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979757" visible="true" weight="0.26998225" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49959514" weight="0.42095914" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
@@ -637,42 +822,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/teste_A.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ScoreStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultipleChoiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="64" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/Resources.jar!/interfaces/controller/ITest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/results.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/Resources.jar!/interfaces/controller/IScoreStrategy.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -695,24 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="method#correctAnswer#0;class#TestStatistics#0" />
-            <element signature="method#incorrectAnswer#0;class#TestStatistics#0" />
-            <element signature="method#incorrectAnswers#0;class#TestStatistics#0" />
-            <element signature="method#correctAnswers#0;class#TestStatistics#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/Resources.jar!/views/TestWindow.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -731,6 +868,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuestionNumeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuestionMultipleChoice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -743,51 +887,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/src/Resources.jar!/views/TestResults.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="170" column="1" lean-forward="true" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="method#meanTimePerAnswer#0;class#TestStatistics#0" />
+            <element signature="method#standardDeviationTimePerAnsewer#0;class#TestStatistics#0" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="method#correctAnswer#0;class#TestStatistics#0" />
+            <element signature="method#incorrectAnswer#0;class#TestStatistics#0" />
+            <element signature="method#incorrectAnswers#0;class#TestStatistics#0" />
+            <element signature="method#correctAnswers#0;class#TestStatistics#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ScoreStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#CalculateScore#0;class#ScoreStrategy#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="657">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setTitle#0;class#Question#0" />
             <element signature="method#setQuestion_description#0;class#Question#0" />
             <element signature="method#setQuestion_metadata#0;class#Question#0" />
+            <element signature="e#1509#1510#0" expanded="true" />
             <element signature="method#equals#0;class#Question#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MultipleChoiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/data/results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/teste_A.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-          <folding>
-            <element signature="method#getQuestion#0;class#Test#0" />
-            <element signature="method#removeQuestion#1;class#Test#0" />
-            <element signature="method#numberQuestions#0;class#Test#0" />
-            <element signature="method#loadFromJSONFile#0;class#Test#0" />
-            <element signature="method#parseMultipleChoice#0;class#Test#0" />
-            <element signature="method#parseQuestionNumeric#0;class#Test#0" />
-            <element signature="method#parseQuestionYesNo#0;class#Test#0" />
-            <element signature="method#toString#0;class#Test#0" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuestionNumeric.java">
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="363">
+          <caret line="205" column="48" lean-forward="true" selection-start-line="205" selection-start-column="48" selection-end-line="205" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getQuestion#0;class#Test#0" />
+            <element signature="method#removeQuestion#1;class#Test#0" />
+            <element signature="method#numberQuestions#0;class#Test#0" />
+            <element signature="method#parseQuestionNumeric#0;class#Test#0" />
+            <element signature="method#parseQuestionYesNo#0;class#Test#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,6 +994,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -854,7 +1041,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>AbsoluteLayout</last-edited>
+          <last-edited>Material para os alunos</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

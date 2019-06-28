@@ -55,7 +55,6 @@ public class Question implements IQuestion {
 
     @Override
     public boolean isDone() {
-
         return isDone;
     }
 

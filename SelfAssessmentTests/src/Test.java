@@ -1,7 +1,4 @@
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.*;
 import interfaces.controller.IScoreStrategy;
 import interfaces.controller.ITest;
 import interfaces.controller.ITestStatistics;
@@ -10,9 +7,10 @@ import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMultipleChoice;
 import interfaces.models.IQuestionNumeric;
 import interfaces.models.IQuestionYesNo;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Date;
 
 public class Test implements ITest {
@@ -187,23 +185,39 @@ public class Test implements ITest {
     }
 
     @Override
-    public boolean saveTestResults(String s) throws TestException {
+    public boolean saveTestResults() throws TestException {
+
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        try {
+            gson.toJson(123.45, new FileWriter("./src/data/results.txt"));
+            gson.toJson(iQuestions, new FileWriter("./src/data/results.txt"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         return false;
     }
 
     @Override
     public String toString() {
-        // calculate mark
+
         int totalMark = 0;
+
+        for (IQuestion iQuestion : iQuestions) {
+            if (iQuestion.evaluateAnswer()) {
+                totalMark += iQuestion.getMark();
+            }
+        }
 
         ITestStatistics statistics = getTestStatistics();
         //ITestBetterStatics betterStatics = getBetterStatistics();
 
-        return "Mark: " + totalMark + "\n" +
+        return  "Mark: " + totalMark + "\n" +
                 "Score: " + calculateScore() + "\n" +
                 "Start Time: " + startTime.toString() + "\n" +
                 "End Time: " + finishTime.toString() + "\n" +
-                "Mean time per answer: " + statistics.meanTimePerAnswer();
+                "Mean time per answer: " + statistics.meanTimePerAnswer() + "\n" +
+                "Standard Deviation Time Per Answer" + statistics.standardDeviationTimePerAnsewer();
         // TODO Do the rest
     }
 }

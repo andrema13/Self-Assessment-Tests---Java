@@ -4,8 +4,6 @@ import interfaces.exceptions.TestException;
 import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMetadata;
 
-import java.util.Date;
-
 public class TestStatistics implements ITestStatistics {
 
     private ITest test;
@@ -19,7 +17,7 @@ public class TestStatistics implements ITestStatistics {
 
         long totalTime = 0;
 
-        for(int i =0 ; i < test.numberQuestions(); i++){
+        for (int i = 0; i < test.numberQuestions(); i++) {
 
             try {
                 IQuestionMetadata metadata = test.getQuestion(i).getQuestion_metadata();
@@ -34,7 +32,21 @@ public class TestStatistics implements ITestStatistics {
 
     @Override
     public double standardDeviationTimePerAnsewer() {
-        return 0;
+
+        double meanTime = meanTimePerAnswer();
+        double sum = 0.0;
+
+        for (int i = 0; i < test.numberQuestions(); i++) {
+            try {
+                IQuestionMetadata metadata = test.getQuestion(i).getQuestion_metadata();
+                sum += Math.pow(metadata.getTimestamp_finish() -
+                        metadata.getTimestamp_start() - meanTime, 2);
+            } catch (TestException e) {
+                e.printStackTrace();
+                return 0.0;
+            }
+        }
+        return Math.sqrt(sum/test.numberQuestions()) / 1000; // convert to seconds
     }
 
     @Override
