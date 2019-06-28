@@ -193,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="213" />
     <option name="y" value="9" />
     <option name="width" value="1890" />
@@ -243,6 +243,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src\Resources" />
       <recent name="C:\GitHub\PP_JavaProject\SelfAssessmentTests\src" />
