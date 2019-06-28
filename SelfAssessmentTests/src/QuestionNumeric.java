@@ -29,17 +29,9 @@ public class QuestionNumeric extends Question implements IQuestionNumeric {
 
     @Override
     public void setUser_answer(double v) {
-        answer = String.valueOf(v);
-    }
-
-    @Override
-    public boolean isDone() {
-
         // Zero means not answered due to panel issue
-        if (Double.parseDouble(answer) > 0.0) {
-            this.question_metadata.setTimestamp_finish(System.currentTimeMillis());
-            return true;
+        if (v > 0.0) {
+            answer(String.valueOf(v));
         }
-        return false;
     }
 }

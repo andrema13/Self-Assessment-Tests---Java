@@ -13,14 +13,18 @@ import interfaces.models.IQuestionYesNo;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.Date;
 
 public class Test implements ITest {
 
     private IQuestion[] iQuestions;
     private IScoreStrategy scoreStrategy;
+    private Date startTime;
+    private Date finishTime;
 
-    Test(){
+    Test() {
         scoreStrategy = new ScoreStrategy();
+        startTime = new Date();
     }
 
     @Override
@@ -54,9 +58,10 @@ public class Test implements ITest {
         IQuestion[] tempQuestions = new IQuestion[iQuestions.length - 1];
         int tempIndex = 0;
         for (IQuestion question : iQuestions) {
-            if (question.equals(iQuestion)) {
+            if (!question.equals(iQuestion)) {
                 try {
                     tempQuestions[tempIndex] = question;
+                    tempIndex++;
                 } catch (IndexOutOfBoundsException e) {
                     return false;
                 }
@@ -77,12 +82,10 @@ public class Test implements ITest {
 
         for (IQuestion iQuestion : iQuestions) {
             if (!iQuestion.isDone()) {
-                iQuestion.setDone(false);
                 return false;
-            } else {
-                iQuestion.setDone(true);
             }
         }
+        finishTime = new Date();
         return true;
     }
 
@@ -186,5 +189,21 @@ public class Test implements ITest {
     @Override
     public boolean saveTestResults(String s) throws TestException {
         return false;
+    }
+
+    @Override
+    public String toString() {
+        // calculate mark
+        int totalMark = 0;
+
+        ITestStatistics statistics = getTestStatistics();
+        //ITestBetterStatics betterStatics = getBetterStatistics();
+
+        return "Mark: " + totalMark + "\n" +
+                "Score: " + calculateScore() + "\n" +
+                "Start Time: " + startTime.toString() + "\n" +
+                "End Time: " + finishTime.toString() + "\n" +
+                "Mean time per answer: " + statistics.meanTimePerAnswer();
+        // TODO Do the rest
     }
 }

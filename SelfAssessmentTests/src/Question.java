@@ -56,21 +56,20 @@ public class Question implements IQuestion {
     @Override
     public boolean isDone() {
 
-        if (answer != null) {
-            this.question_metadata.setTimestamp_finish(System.currentTimeMillis());
-            return true;
-        }
-        return false;
+        return isDone;
     }
 
     @Override
     public void setDone(boolean b) {
         this.isDone = b;
+        //If its done , store the finish time
+        this.question_metadata.setTimestamp_finish(System.currentTimeMillis());
     }
 
     @Override
     public void answer(String s) {
         this.answer = s;
+        setDone(true);
     }
 
     @Override

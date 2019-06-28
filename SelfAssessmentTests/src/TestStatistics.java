@@ -4,6 +4,8 @@ import interfaces.exceptions.TestException;
 import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMetadata;
 
+import java.util.Date;
+
 public class TestStatistics implements ITestStatistics {
 
     private ITest test;
@@ -17,7 +19,8 @@ public class TestStatistics implements ITestStatistics {
 
         long totalTime = 0;
 
-        for (int i = 0; i < test.numberQuestions(); i++) {
+        for(int i =0 ; i < test.numberQuestions(); i++){
+
             try {
                 IQuestionMetadata metadata = test.getQuestion(i).getQuestion_metadata();
                 totalTime += metadata.getTimestamp_finish() - metadata.getTimestamp_start();
