@@ -15,7 +15,7 @@ import java.util.Date;
 
 public class Test implements ITest {
 
-    private IQuestion[] iQuestions;
+    protected IQuestion[] iQuestions;
     private IScoreStrategy scoreStrategy;
     private Date startTime;
     private Date finishTime;
@@ -123,7 +123,6 @@ public class Test implements ITest {
                     default:
                         System.out.println("Unknown type");
                         break;
-
                 }
             }
             return true;
@@ -133,7 +132,7 @@ public class Test implements ITest {
         }
     }
 
-    private IQuestionMultipleChoice parseMultipleChoice(JsonObject question) {
+    protected IQuestionMultipleChoice parseMultipleChoice(JsonObject question) {
         String title = question.get("title").getAsString();
         int score = question.get("score").getAsInt();
         float mark = question.get("mark").getAsFloat();
@@ -187,14 +186,19 @@ public class Test implements ITest {
     @Override
     public boolean saveTestResults() throws TestException {
 
+        //validar se estao todas preenchidas
+
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        OutputTest outputTest = new OutputTest(this);
+
         try {
-            gson.toJson(123.45, new FileWriter("./src/data/results.txt"));
-            gson.toJson(iQuestions, new FileWriter("./src/data/results.txt"));
+            FileWriter fileWriter = new FileWriter("./src/data/" + System.currentTimeMillis() + ".json");
+            gson.toJson(outputTest, fileWriter);
+            fileWriter.flush();
+            fileWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return false;
     }
 
@@ -212,12 +216,24 @@ public class Test implements ITest {
         ITestStatistics statistics = getTestStatistics();
         //ITestBetterStatics betterStatics = getBetterStatistics();
 
-        return  "Mark: " + totalMark + "\n" +
+        return "Mark: " + totalMark + "\n" +
                 "Score: " + calculateScore() + "\n" +
                 "Start Time: " + startTime.toString() + "\n" +
                 "End Time: " + finishTime.toString() + "\n" +
                 "Mean time per answer: " + statistics.meanTimePerAnswer() + "\n" +
                 "Standard Deviation Time Per Answer" + statistics.standardDeviationTimePerAnsewer();
         // TODO Do the rest
+    }
+
+    public IQuestion[] getAllQuestions(){
+        return iQuestions;
+    }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public Date getFinishTime() {
+        return finishTime;
     }
 }
