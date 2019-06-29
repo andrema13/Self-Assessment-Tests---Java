@@ -215,6 +215,7 @@ public class Test implements ITest {
         }
 
         ITestStatistics statistics = getTestStatistics();
+        //TODO this
         //ITestBetterStatics betterStatics = getBetterStatistics();
 
         return "Mark: " + totalMark + "\n" +
@@ -222,7 +223,7 @@ public class Test implements ITest {
                 "Start Time: " + startTime.toString() + "\n" +
                 "End Time: " + finishTime.toString() + "\n" +
                 "Mean time per answer: " + statistics.meanTimePerAnswer() + "\n" +
-                "Standard Deviation Time Per Answer" + statistics.standardDeviationTimePerAnsewer();
+                "Standard Deviation Time Per Answer: " + statistics.standardDeviationTimePerAnsewer();
         // TODO Do the rest
     }
 
