@@ -19,7 +19,7 @@ public class MultipleChoiceTest extends Test {
             JsonArray jsonArray = jsonElement.getAsJsonArray();
 
             // Initialize array with the number of questions
-            iQuestions = new IQuestion[jsonArray.size()];
+            iQuestions = new Question[jsonArray.size()];
 
             for (JsonElement element : jsonArray) {
 

@@ -9,11 +9,15 @@ public class Main {
         System.out.println("Inicio do Teste");
         ITest demoTest = new Test();
         TestWindow testWindow = new TestWindow();
+        AllTests tests = new AllTests();
 
         try {
             demoTest.loadFromJSONFile("./src/data/teste_A.json");
+            tests.loadAllTests("./src/data/all_tests.json");
             //demoTest.removeQuestion(0);
             testWindow.startTest(demoTest);
+            tests.addNewTest(demoTest);
+            tests.saveAllTests("./src/data/all_tests.json");
         } catch (TestException e) {
             System.out.println(e.getMessage());
             System.exit(1);

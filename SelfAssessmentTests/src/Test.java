@@ -7,6 +7,7 @@ import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMultipleChoice;
 import interfaces.models.IQuestionNumeric;
 import interfaces.models.IQuestionYesNo;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -15,8 +16,8 @@ import java.util.Date;
 
 public class Test implements ITest {
 
-    protected IQuestion[] iQuestions;
-    private IScoreStrategy scoreStrategy;
+    protected Question[] iQuestions;
+    private transient IScoreStrategy scoreStrategy;
     private Date startTime;
     private Date finishTime;
 
@@ -29,7 +30,7 @@ public class Test implements ITest {
     public boolean addQuestion(IQuestion iQuestion) throws TestException {
         for (int i = 0; i < iQuestions.length; i++) {
             if (iQuestions[i] == null) {
-                iQuestions[i] = iQuestion;
+                iQuestions[i] = (Question) iQuestion;
                 return true;
             }
         }
@@ -53,9 +54,9 @@ public class Test implements ITest {
 
     @Override
     public boolean removeQuestion(IQuestion iQuestion) {
-        IQuestion[] tempQuestions = new IQuestion[iQuestions.length - 1];
+        Question[] tempQuestions = new Question[iQuestions.length - 1];
         int tempIndex = 0;
-        for (IQuestion question : iQuestions) {
+        for (Question question : iQuestions) {
             if (!question.equals(iQuestion)) {
                 try {
                     tempQuestions[tempIndex] = question;
@@ -102,7 +103,7 @@ public class Test implements ITest {
             JsonArray jsonArray = jsonElement.getAsJsonArray();
 
             // Initialize array with the number of questions
-            iQuestions = new IQuestion[jsonArray.size()];
+            iQuestions = new Question[jsonArray.size()];
 
             for (JsonElement element : jsonArray) {
 
@@ -225,7 +226,7 @@ public class Test implements ITest {
         // TODO Do the rest
     }
 
-    public IQuestion[] getAllQuestions(){
+    public IQuestion[] getAllQuestions() {
         return iQuestions;
     }
 

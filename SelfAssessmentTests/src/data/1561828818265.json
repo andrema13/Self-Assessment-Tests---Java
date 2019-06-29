@@ -1,0 +1,71 @@
+{
+  "iQuestions": [
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Polymorphism",
+      "answer": "Polymorphism",
+      "title": "Question 1",
+      "question_metadata": {
+        "timestamp_start": 1561828796860,
+        "timestamp_finish": 1561828805480
+      },
+      "question_description": "The ability of an object to take on many forms is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Encapsulation",
+      "answer": "Encapsulation",
+      "title": "Question 2",
+      "question_metadata": {
+        "timestamp_start": 1561828806820,
+        "timestamp_finish": 1561828807898
+      },
+      "question_description": "The bundling of data with the methods that operate on that data is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "NO",
+      "answer": "NO",
+      "title": "Question 3",
+      "question_metadata": {
+        "timestamp_start": 1561828808991,
+        "timestamp_finish": 1561828810569
+      },
+      "question_description": "Object Oriented Programming is exclusive to the JAVA programming language",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "1.0",
+      "answer": "0.0",
+      "title": "Question 4",
+      "question_metadata": {
+        "timestamp_start": 1561828811863,
+        "timestamp_finish": 1561828814313
+      },
+      "question_description": "How many programming languages are taught in Paradigmas de Programação?",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    }
+  ],
+  "startTime": "Jun 29, 2019, 6:19:29 PM",
+  "finishTime": "Jun 29, 2019, 6:20:15 PM",
+  "meanTime": 3.0
+}

@@ -7,12 +7,15 @@ public class Question implements IQuestion {
     protected String correct_answer;
     protected String answer;
     protected String title;
-    protected IQuestionMetadata question_metadata;
+    protected QuestionMetadata question_metadata;
     protected String question_description;
     protected boolean isDone;
     protected float mark;
 
     private int score;
+
+    Question() {
+    }
 
     Question(String title, String question_description, float mark, int
             score) {
@@ -50,7 +53,7 @@ public class Question implements IQuestion {
 
     @Override
     public void setQuestion_metadata(IQuestionMetadata iQuestionMetadata) {
-        this.question_metadata = iQuestionMetadata;
+        this.question_metadata = (QuestionMetadata) iQuestionMetadata;
     }
 
     @Override
