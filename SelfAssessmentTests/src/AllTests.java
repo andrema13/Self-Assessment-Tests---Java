@@ -54,7 +54,6 @@ public class AllTests implements IAllTests {
             tests = new Test[1];
             tests[0] = (Test) test;
         }
-
     }
 
     class SortByCorrectAnswers implements Comparator<Test> {
@@ -63,6 +62,5 @@ public class AllTests implements IAllTests {
         public int compare(Test o1, Test o2) {
             return o1.getTestStatistics().correctAnswer() - o2.getTestStatistics().correctAnswer();
         }
-
     }
 }

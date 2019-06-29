@@ -203,6 +203,10 @@ public class Test implements ITest {
         return false;
     }
 
+    private ITestBetterStatistics getBetterStatistics() {
+        return new TestBetterStatistics(this);
+    }
+
     @Override
     public String toString() {
 
@@ -216,14 +220,20 @@ public class Test implements ITest {
 
         ITestStatistics statistics = getTestStatistics();
         //TODO this
-        //ITestBetterStatics betterStatics = getBetterStatistics();
-
+        ITestBetterStatistics betterStatistics = getBetterStatistics();
         return "Mark: " + totalMark + "\n" +
                 "Score: " + calculateScore() + "\n" +
                 "Start Time: " + startTime.toString() + "\n" +
                 "End Time: " + finishTime.toString() + "\n" +
                 "Mean time per answer: " + statistics.meanTimePerAnswer() + "\n" +
-                "Standard Deviation Time Per Answer: " + statistics.standardDeviationTimePerAnsewer();
+                "Standard Deviation Time Per Answer: " + statistics.standardDeviationTimePerAnsewer() + "\n" +
+                "Percentage Correct MultipleChoice Questions: " + betterStatistics.percentageCorrectMultipleChoiceQuestions() + " %" + "\n" +
+                "Percentage Incorrect MultipleChoice Questions: " + betterStatistics.percentageIncorrectMultipleChoiceQuestions() + " %" + "\n" +
+                "Percentage Number Of NumericQuestions " + betterStatistics.percentageNumberOfNumericQuestions() + " %" + "\n" +
+                "Total Time Test: " + betterStatistics.totalTimeTestInSeconds() + " seconds" + "\n" +
+                "Mean Time Per Question : " + betterStatistics.meanTimePerQuestion() + " seconds";
+
+
         // TODO Do the rest
     }
 
