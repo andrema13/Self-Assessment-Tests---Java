@@ -3,7 +3,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import interfaces.exceptions.TestException;
-import interfaces.models.IQuestion;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
@@ -27,10 +27,9 @@ public class MultipleChoiceTest extends Test {
                 String type = jsonObject.get("type").getAsString();
                 JsonObject question = jsonObject.getAsJsonObject("question");
 
-                if(type.equals("MultipleChoice")){
+                if (type.equals("MultipleChoice")) {
                     addQuestion(parseMultipleChoice(question));
-                }
-                else {
+                } else {
                     throw new TestException("Wrong question type");
                 }
             }

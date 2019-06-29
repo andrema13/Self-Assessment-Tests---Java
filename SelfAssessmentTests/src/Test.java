@@ -226,7 +226,7 @@ public class Test implements ITest {
         // TODO Do the rest
     }
 
-    public IQuestion[] getAllQuestions() {
+    public Question[] getAllQuestions() {
         return iQuestions;
     }
 

@@ -6,10 +6,10 @@ import interfaces.models.IQuestionMetadata;
 
 public class TestStatistics implements ITestStatistics {
 
-    private ITest test;
+    private Test test;
 
     TestStatistics(ITest iTest) {
-        this.test = iTest;
+        this.test = (Test) iTest;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class TestStatistics implements ITestStatistics {
                 return 0.0;
             }
         }
-        return Math.sqrt(sum/test.numberQuestions()) / 1000; // convert to seconds
+        return Math.sqrt(sum / test.numberQuestions()) / 1000; // convert to seconds
     }
 
     @Override

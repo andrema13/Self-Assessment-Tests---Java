@@ -29,9 +29,6 @@ public class QuestionNumeric extends Question implements IQuestionNumeric {
 
     @Override
     public void setUser_answer(double v) {
-        // Zero means not answered due to panel issue
-        if (v > 0.0) {
-            answer(String.valueOf(v));
-        }
+        answer(String.valueOf(v));
     }
 }
