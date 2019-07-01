@@ -11,8 +11,8 @@
       "answer": "Polymorphism",
       "title": "Question 1",
       "question_metadata": {
-        "timestamp_start": 1561828796860,
-        "timestamp_finish": 1561828805480
+        "timestamp_start": 1561921609168,
+        "timestamp_finish": 1561921610012
       },
       "question_description": "The ability of an object to take on many forms is:",
       "isDone": true,
@@ -27,11 +27,11 @@
         "Does not Exist"
       ],
       "correct_answer": "Encapsulation",
-      "answer": "Encapsulation",
+      "answer": "Does not Exist",
       "title": "Question 2",
       "question_metadata": {
-        "timestamp_start": 1561828806820,
-        "timestamp_finish": 1561828807898
+        "timestamp_start": 1561921611198,
+        "timestamp_finish": 1561921611851
       },
       "question_description": "The bundling of data with the methods that operate on that data is:",
       "isDone": true,
@@ -43,8 +43,8 @@
       "answer": "NO",
       "title": "Question 3",
       "question_metadata": {
-        "timestamp_start": 1561828808991,
-        "timestamp_finish": 1561828810569
+        "timestamp_start": 1561921613593,
+        "timestamp_finish": 1561921614188
       },
       "question_description": "Object Oriented Programming is exclusive to the JAVA programming language",
       "isDone": true,
@@ -53,11 +53,11 @@
     },
     {
       "correct_answer": "1.0",
-      "answer": "0.0",
+      "answer": "1.0",
       "title": "Question 4",
       "question_metadata": {
-        "timestamp_start": 1561828811863,
-        "timestamp_finish": 1561828814313
+        "timestamp_start": 1561921614840,
+        "timestamp_finish": 1561921617122
       },
       "question_description": "How many programming languages are taught in Paradigmas de Programação?",
       "isDone": true,
@@ -65,7 +65,19 @@
       "score": 4
     }
   ],
-  "startTime": "Jun 29, 2019, 6:19:29 PM",
-  "finishTime": "Jun 29, 2019, 6:20:15 PM",
-  "meanTime": 3.0
+  "startTime": "Jun 30, 2019, 8:06:48 PM",
+  "finishTime": "Jun 30, 2019, 8:06:57 PM",
+  "totalTimeTest": 8.0,
+  "meanTime": 1.0,
+  "score": "Satisfaz Bastante",
+  "mark": 15,
+  "standartDeviationTimePerAnswer": 1.2934015231164684,
+  "correctAnswers": 3,
+  "correctAnswerPercentage": 0.0,
+  "incorrectAnswers": 1,
+  "incorrectAnswerPercentage": 0.0,
+  "percentageCorrectMultipleChoiceQuestions": 0.0,
+  "percentageIncorrectMultipleChoiceQuestions": 0.0,
+  "percentageNumberOfNumericQuestions": 25.0,
+  "meanTimePerQuestion": 2.0
 }

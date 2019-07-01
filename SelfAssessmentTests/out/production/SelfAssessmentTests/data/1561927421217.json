@@ -1,0 +1,57 @@
+{
+  "iQuestions": [
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Polymorphism",
+      "answer": "Polymorphism",
+      "title": "Question 1",
+      "question_metadata": {
+        "timestamp_start": 1561927415096,
+        "timestamp_finish": 1561927417057
+      },
+      "question_description": "The ability of an object to take on many forms is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Encapsulation",
+      "answer": "Encapsulation",
+      "title": "Question 2",
+      "question_metadata": {
+        "timestamp_start": 1561927418362,
+        "timestamp_finish": 1561927419017
+      },
+      "question_description": "The bundling of data with the methods that operate on that data is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    }
+  ],
+  "startTime": "Jun 30, 2019, 9:43:34 PM",
+  "finishTime": "Jun 30, 2019, 9:43:41 PM",
+  "totalTimeTest": 6.0,
+  "meanTime": 1.0,
+  "score": "Satisfaz",
+  "mark": 10,
+  "standartDeviationTimePerAnswer": 1.4610468849424374,
+  "correctAnswers": 2,
+  "correctAnswerPercentage": 100.0,
+  "incorrectAnswers": 0,
+  "incorrectAnswerPercentage": 0.0,
+  "percentageCorrectMultipleChoiceQuestions": 100.0,
+  "percentageIncorrectMultipleChoiceQuestions": 0.0,
+  "percentageNumberOfNumericQuestions": 0.0,
+  "meanTimePerQuestion": 3.0
+}

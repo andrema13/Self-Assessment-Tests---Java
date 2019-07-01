@@ -9,6 +9,12 @@ import java.io.FileReader;
 
 public class MultipleChoiceTest extends Test {
 
+    /**
+     * Loads all questions in the test with just multiple choice questions from a text file
+     * @param s the path to the text file
+     * @return true if the file was successfully loaded all multiple choice questions in the test, false otherwise
+     * @throws TestException if there's not match the question type
+     */
     @Override
     public boolean loadFromJSONFile(String s) throws TestException {
 
@@ -30,12 +36,12 @@ public class MultipleChoiceTest extends Test {
                 if (type.equals("MultipleChoice")) {
                     addQuestion(parseMultipleChoice(question));
                 } else {
-                    throw new TestException("Wrong question type");
+                    throw new TestException("Wrong Question Type");
                 }
             }
             return true;
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");
+            System.out.println("File Not Found");
             return false;
         }
     }

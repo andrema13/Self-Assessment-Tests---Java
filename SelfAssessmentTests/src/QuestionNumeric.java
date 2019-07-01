@@ -31,4 +31,5 @@ public class QuestionNumeric extends Question implements IQuestionNumeric {
     public void setUser_answer(double v) {
         answer(String.valueOf(v));
     }
+
 }

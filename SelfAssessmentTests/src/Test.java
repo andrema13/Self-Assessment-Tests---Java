@@ -18,7 +18,7 @@ public class Test implements ITest {
 
     protected Question[] iQuestions;
     private transient IScoreStrategy scoreStrategy;
-    private Date startTime;
+    private final Date startTime;
     private Date finishTime;
 
     Test() {
@@ -164,7 +164,7 @@ public class Test implements ITest {
         int score = question.get("score").getAsInt();
         float mark = question.get("mark").getAsFloat();
         String question_description = question.get("question_description").getAsString();
-        String correct_answer = question.get("correct_answer").getAsString().toUpperCase();//conversao para Maius.
+        String correct_answer = question.get("correct_answer").getAsString().toUpperCase();//conversion to UpperCase.
 
         return new QuestionYesNo(title, question_description, mark, score, correct_answer);
     }
@@ -187,7 +187,9 @@ public class Test implements ITest {
     @Override
     public boolean saveTestResults() throws TestException {
 
-        //validar se estao todas preenchidas
+        if(!isComplete()){
+            throw new TestException("Test isn't complete");
+        }
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         OutputTest outputTest = new OutputTest(this);
@@ -203,12 +205,11 @@ public class Test implements ITest {
         return false;
     }
 
-    private ITestBetterStatistics getBetterStatistics() {
+    protected ITestBetterStatistics getBetterStatistics() {
         return new TestBetterStatistics(this);
     }
 
-    @Override
-    public String toString() {
+    protected int getTotalMark(){
 
         int totalMark = 0;
 
@@ -217,11 +218,16 @@ public class Test implements ITest {
                 totalMark += iQuestion.getMark();
             }
         }
+        return totalMark;
+    }
+
+    @Override
+    public String toString() {
 
         ITestStatistics statistics = getTestStatistics();
-        //TODO this
         ITestBetterStatistics betterStatistics = getBetterStatistics();
-        return "Mark: " + totalMark + "\n" +
+
+        return  "Mark: " + getTotalMark() + "\n" +
                 "Score: " + calculateScore() + "\n" +
                 "Start Time: " + startTime.toString() + "\n" +
                 "End Time: " + finishTime.toString() + "\n" +
@@ -232,9 +238,6 @@ public class Test implements ITest {
                 "Percentage Number Of NumericQuestions " + betterStatistics.percentageNumberOfNumericQuestions() + " %" + "\n" +
                 "Total Time Test: " + betterStatistics.totalTimeTestInSeconds() + " seconds" + "\n" +
                 "Mean Time Per Question : " + betterStatistics.meanTimePerQuestion() + " seconds";
-
-
-        // TODO Do the rest
     }
 
     public Question[] getAllQuestions() {

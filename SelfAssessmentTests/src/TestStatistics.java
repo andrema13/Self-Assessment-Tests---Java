@@ -51,12 +51,12 @@ public class TestStatistics implements ITestStatistics {
 
     @Override
     public double correctAnswerPecentage() {
-        return correctAnswer() / test.numberQuestions() * 100;
+        return ((double)correctAnswer() / test.numberQuestions()) * 100;
     }
 
     @Override
     public double incorrectAnswerPecentage() {
-        return incorrectAnswer() / test.numberQuestions() * 100;
+        return ((double)incorrectAnswer() / test.numberQuestions())* 100;
     }
 
     @Override
