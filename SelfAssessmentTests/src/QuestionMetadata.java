@@ -1,3 +1,9 @@
+/*
+ * Nome: André Filipe Neto Martins
+ * Número: 8180483
+ * Turma: T2
+ */
+
 import interfaces.models.IQuestionMetadata;
 
 public class QuestionMetadata implements IQuestionMetadata {

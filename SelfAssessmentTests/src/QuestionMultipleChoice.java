@@ -1,3 +1,9 @@
+/*
+ * Nome: André Filipe Neto Martins
+ * Número: 8180483
+ * Turma: T2
+ */
+
 import interfaces.models.IQuestionMultipleChoice;
 
 public class QuestionMultipleChoice extends Question implements IQuestionMultipleChoice {

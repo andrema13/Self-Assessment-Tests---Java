@@ -1,8 +1,24 @@
+/*
+ * Nome: André Filipe Neto Martins
+ * Número: 8180483
+ * Turma: T2
+ */
+
 import interfaces.controller.IScoreStrategy;
 import interfaces.models.IQuestion;
 
 public class ScoreStrategy implements IScoreStrategy {
 
+    /**
+     * Calculates the Score for the Test .
+     * It was declared this possibles scores to the test:
+     * 4 is "Not Enough"
+     * 8 is "Satisfy"
+     * 12 is "Really Satisfy"
+     * 16 is "Excellent"
+     * @param iQuestions  the questions used to calculate score
+     * @return the score for the test
+     */
     @Override
     public String CalculateScore(IQuestion[] iQuestions) {
 
@@ -16,13 +32,13 @@ public class ScoreStrategy implements IScoreStrategy {
         }
         switch (score) {
             case 4:
-                return "Não Satisfaz";
+                return "Not Enough";
             case 8:
-                return "Satisfaz";
+                return "Satisfy";
             case 12:
-                return "Satisfaz Bastante";
+                return "Really Satisfy";
             case 16:
-                return "Excelente";
+                return "Excellent";
 
             default:
                 return "Zero";

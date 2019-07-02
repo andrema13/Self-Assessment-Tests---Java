@@ -1,3 +1,9 @@
+/*
+ * Nome: André Filipe Neto Martins
+ * Número: 8180483
+ * Turma: T2
+ */
+
 import interfaces.controller.ITest;
 import interfaces.controller.ITestStatistics;
 import interfaces.exceptions.TestException;
@@ -12,6 +18,10 @@ public class TestStatistics implements ITestStatistics {
         this.test = (Test) iTest;
     }
 
+    /**
+     * Calculates the mean time per answer of a test
+     * @return the mean time per answer of a test in seconds
+     */
     @Override
     public double meanTimePerAnswer() {
 
@@ -30,6 +40,10 @@ public class TestStatistics implements ITestStatistics {
         return (totalTime / test.numberQuestions()) / 1000;
     }
 
+    /**
+     * Calculates the standard deviation time per answer of a test
+     * @return the standard deviation time per answer of a test in seconds
+     */
     @Override
     public double standardDeviationTimePerAnsewer() {
 
@@ -49,16 +63,28 @@ public class TestStatistics implements ITestStatistics {
         return Math.sqrt(sum / test.numberQuestions()) / 1000; // convert to seconds
     }
 
+    /**
+     * Calculates the correct answer percentage of a test
+     * @return the correct answer percentage of a test
+     */
     @Override
     public double correctAnswerPecentage() {
         return ((double)correctAnswer() / test.numberQuestions()) * 100;
     }
 
+    /**
+     * Calculates the incorrect answer percentage of a test
+     * @return the incorrect answer percentage of a test
+     */
     @Override
     public double incorrectAnswerPecentage() {
         return ((double)incorrectAnswer() / test.numberQuestions())* 100;
     }
 
+    /**
+     * Calculates the number of correct answers of a test
+     * @return the number of correct answers of a test
+     */
     @Override
     public int correctAnswer() {
         int correct_answers = 0;
@@ -74,6 +100,10 @@ public class TestStatistics implements ITestStatistics {
         return correct_answers;
     }
 
+    /**
+     * Calculates the number of incorrect answers of a test
+     * @return the number of incorrect answers of a test
+     */
     @Override
     public int incorrectAnswer() {
         int correct_answers = 0;
@@ -89,6 +119,10 @@ public class TestStatistics implements ITestStatistics {
         return correct_answers;
     }
 
+    /**
+     * Fetches the incorrect questions of a test
+     * @return the incorrect questions of a test
+     */
     @Override
     public IQuestion[] incorrectAnswers() {
         IQuestion[] tempArray = new IQuestion[test.numberQuestions()];
@@ -107,6 +141,10 @@ public class TestStatistics implements ITestStatistics {
         return tempArray;
     }
 
+    /**
+     * Fetches the correct questions of a test
+     * @return the correct questions of a test
+     */
     @Override
     public IQuestion[] correctAnswers() {
         IQuestion[] tempArray = new IQuestion[test.numberQuestions()];

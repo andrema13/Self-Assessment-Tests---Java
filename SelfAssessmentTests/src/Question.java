@@ -1,3 +1,9 @@
+/*
+ * Nome: André Filipe Neto Martins
+ * Número: 8180483
+ * Turma: T2
+ */
+
 import interfaces.exceptions.QuestionException;
 import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMetadata;
