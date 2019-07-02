@@ -135,7 +135,7 @@ public class Question implements IQuestion {
      */
     @Override
     public boolean evaluateAnswer() {
-        return answer.equals(correct_answer);
+        return isDone && answer.equals(correct_answer);
     }
 
     /**

@@ -1,0 +1,83 @@
+{
+  "iQuestions": [
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Polymorphism",
+      "answer": "Does not Exist",
+      "title": "Question 1",
+      "question_metadata": {
+        "timestamp_start": 1562069515733,
+        "timestamp_finish": 1562069519040
+      },
+      "question_description": "The ability of an object to take on many forms is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Encapsulation",
+      "answer": "Does not Exist",
+      "title": "Question 2",
+      "question_metadata": {
+        "timestamp_start": 1562069519660,
+        "timestamp_finish": 1562069520519
+      },
+      "question_description": "The bundling of data with the methods that operate on that data is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "NO",
+      "answer": "NO",
+      "title": "Question 3",
+      "question_metadata": {
+        "timestamp_start": 1562069520988,
+        "timestamp_finish": 1562069521657
+      },
+      "question_description": "Object Oriented Programming is exclusive to the JAVA programming language",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "1.0",
+      "answer": "0.0",
+      "title": "Question 4",
+      "question_metadata": {
+        "timestamp_start": 1562069522401,
+        "timestamp_finish": 1562069523200
+      },
+      "question_description": "How many programming languages are taught in Paradigmas de Programação?",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    }
+  ],
+  "startTime": "Jul 2, 2019, 1:11:55 PM",
+  "finishTime": "Jul 2, 2019, 1:12:04 PM",
+  "totalTimeTest": 9.0,
+  "meanTime": 1.0,
+  "score": "Not Enough",
+  "mark": 5,
+  "standartDeviationTimePerAnswer": 1.7852750488370133,
+  "correctAnswers": 1,
+  "correctAnswerPercentage": 25.0,
+  "incorrectAnswers": 3,
+  "incorrectAnswerPercentage": 75.0,
+  "percentageCorrectMultipleChoiceQuestions": 0.0,
+  "percentageIncorrectMultipleChoiceQuestions": 100.0,
+  "percentageNumberOfNumericQuestions": 25.0,
+  "meanTimePerQuestion": 2.25
+}

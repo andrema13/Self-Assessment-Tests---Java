@@ -1,0 +1,83 @@
+{
+  "iQuestions": [
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Polymorphism",
+      "answer": "Polymorphism",
+      "title": "Question 1",
+      "question_metadata": {
+        "timestamp_start": 1562069566322,
+        "timestamp_finish": 1562069568445
+      },
+      "question_description": "The ability of an object to take on many forms is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "question_options": [
+        "Polymorphism",
+        "Encapsulation",
+        "Design Patter",
+        "Does not Exist"
+      ],
+      "correct_answer": "Encapsulation",
+      "answer": "Does not Exist",
+      "title": "Question 2",
+      "question_metadata": {
+        "timestamp_start": 1562069569082,
+        "timestamp_finish": 1562069569567
+      },
+      "question_description": "The bundling of data with the methods that operate on that data is:",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "NO",
+      "answer": "NO",
+      "title": "Question 3",
+      "question_metadata": {
+        "timestamp_start": 1562069570263,
+        "timestamp_finish": 1562069570920
+      },
+      "question_description": "Object Oriented Programming is exclusive to the JAVA programming language",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    },
+    {
+      "correct_answer": "1.0",
+      "answer": "0.0",
+      "title": "Question 4",
+      "question_metadata": {
+        "timestamp_start": 1562069571419,
+        "timestamp_finish": 1562069572198
+      },
+      "question_description": "How many programming languages are taught in Paradigmas de Programação?",
+      "isDone": true,
+      "mark": 5.0,
+      "score": 4
+    }
+  ],
+  "startTime": "Jul 2, 2019, 1:12:45 PM",
+  "finishTime": "Jul 2, 2019, 1:12:53 PM",
+  "totalTimeTest": 7.0,
+  "meanTime": 1.0,
+  "score": "Satisfy",
+  "mark": 10,
+  "standartDeviationTimePerAnswer": 1.2013284313625479,
+  "correctAnswers": 2,
+  "correctAnswerPercentage": 50.0,
+  "incorrectAnswers": 2,
+  "incorrectAnswerPercentage": 50.0,
+  "percentageCorrectMultipleChoiceQuestions": 0.0,
+  "percentageIncorrectMultipleChoiceQuestions": 0.0,
+  "percentageNumberOfNumericQuestions": 25.0,
+  "meanTimePerQuestion": 1.75
+}

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28b816aa-1a6e-4ae4-8643-e1632876aa8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/AllTests$SortByCorrectAnswers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/AllTests$SortByCorrectAnswers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/AllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/AllTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/IAllTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/IAllTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/MultipleChoiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/MultipleChoiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/OutputTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/OutputTest.class" afterDir="false" />
@@ -17,30 +15,13 @@
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/QuestionYesNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/QuestionYesNo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/ScoreStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/ScoreStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561764566227.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561828818265.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561921476901.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561921618587.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561921673058.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561927421217.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561931614706.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/1561997456178.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/data/test_C.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IAllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IAllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ITestBetterStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ITestBetterStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultipleChoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultipleChoiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OutputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestBetterStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestBetterStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SelfAssessmentTests/TestStatistics.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionMetadata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionMetadata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionMultipleChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionMultipleChoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionNumeric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionYesNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionYesNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScoreStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScoreStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestBetterStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestBetterStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/all_tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/test_A.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/test_B.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,24 +42,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestStatistics.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" selection-start-line="18" selection-end-line="21" />
+            <state relative-caret-position="175">
+              <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
               <folding>
-                <element signature="e#0#4860#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="method#meanTimePerAnswer#0;class#TestStatistics#0" />
-                <element signature="method#standardDeviationTimePerAnsewer#0;class#TestStatistics#0" />
-                <element signature="docComment;method#correctAnswerPecentage#0;class#TestStatistics#0" />
-                <element signature="docComment;method#incorrectAnswerPecentage#0;class#TestStatistics#0" />
-                <element signature="method#correctAnswer#0;class#TestStatistics#0" />
-                <element signature="docComment;method#incorrectAnswer#0;class#TestStatistics#0" />
-                <element signature="method#incorrectAnswer#0;class#TestStatistics#0" />
-                <element signature="method#incorrectAnswers#0;class#TestStatistics#0" />
-                <element signature="method#correctAnswers#0;class#TestStatistics#0" />
+                <element signature="docComment;method#Question#0;class#Question#0" />
+                <element signature="method#Question#0;class#Question#0" />
+                <element signature="docComment;method#getTitle#0;class#Question#0" />
+                <element signature="docComment;method#setTitle#0;class#Question#0" />
+                <element signature="docComment;method#getQuestion_description#0;class#Question#0" />
+                <element signature="docComment;method#setQuestion_description#0;class#Question#0" />
+                <element signature="method#setQuestion_description#0;class#Question#0" />
+                <element signature="docComment;method#getQuestion_metadata#0;class#Question#0" />
+                <element signature="docComment;method#setQuestion_metadata#0;class#Question#0" />
+                <element signature="method#setQuestion_metadata#0;class#Question#0" />
+                <element signature="docComment;method#isDone#0;class#Question#0" />
+                <element signature="docComment;method#setDone#0;class#Question#0" />
+                <element signature="method#setDone#0;class#Question#0" />
+                <element signature="docComment;method#answer#0;class#Question#0" />
+                <element signature="method#answer#0;class#Question#0" />
+                <element signature="docComment;method#evaluateAnswer#0;class#Question#0" />
+                <element signature="e#3685#3686#0" expanded="true" />
+                <element signature="e#3747#3748#0" expanded="true" />
+                <element signature="docComment;method#getMark#0;class#Question#0" />
+                <element signature="docComment;method#setMark#0;class#Question#0" />
+                <element signature="docComment;method#getScore#0;class#Question#0" />
+                <element signature="docComment;method#equals#0;class#Question#0" />
+                <element signature="method#equals#0;class#Question#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestBetterStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+                <element signature="method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+                <element signature="method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#percentageCorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#percentageIncorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
+                <element signature="method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
+                <element signature="method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
+                <element signature="docComment;method#meanTimePerQuestion#0;class#TestBetterStatistics#0" />
               </folding>
             </state>
           </provider>
@@ -132,17 +147,23 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MultipleChoiceTest.java" />
         <option value="$PROJECT_DIR$/src/OutputTest.java" />
-        <option value="$PROJECT_DIR$/src/Question.java" />
         <option value="$PROJECT_DIR$/src/QuestionMetadata.java" />
         <option value="$PROJECT_DIR$/src/QuestionMultipleChoice.java" />
         <option value="$PROJECT_DIR$/src/QuestionNumeric.java" />
         <option value="$PROJECT_DIR$/src/QuestionYesNo.java" />
         <option value="$PROJECT_DIR$/src/ScoreStrategy.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/TestBetterStatistics.java" />
         <option value="$PROJECT_DIR$/src/TestStatistics.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/Question.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="213" />
@@ -156,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,11 +189,16 @@
               <item name="SelfAssessmentTests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SelfAssessmentTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,8 +285,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4943182" visible="true" weight="0.20080972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4943182" visible="true" weight="0.21700405" />
       <window_info id="Structure" order="1" sideWeight="0.5056818" side_tool="true" weight="0.2582996" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,7 +310,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24939272" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32955465" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -298,6 +324,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test.java</url>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((Test)this).iQuestions" language="JAVA" custom="Test" />
@@ -631,37 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#4610#0" expanded="true" />
-            <element signature="docComment;method#Question#0;class#Question#0" />
-            <element signature="method#Question#0;class#Question#0" />
-            <element signature="docComment;method#getTitle#0;class#Question#0" />
-            <element signature="docComment;method#setTitle#0;class#Question#0" />
-            <element signature="docComment;method#getQuestion_description#0;class#Question#0" />
-            <element signature="docComment;method#setQuestion_description#0;class#Question#0" />
-            <element signature="method#setQuestion_description#0;class#Question#0" />
-            <element signature="docComment;method#getQuestion_metadata#0;class#Question#0" />
-            <element signature="docComment;method#setQuestion_metadata#0;class#Question#0" />
-            <element signature="method#setQuestion_metadata#0;class#Question#0" />
-            <element signature="docComment;method#isDone#0;class#Question#0" />
-            <element signature="docComment;method#setDone#0;class#Question#0" />
-            <element signature="method#setDone#0;class#Question#0" />
-            <element signature="docComment;method#answer#0;class#Question#0" />
-            <element signature="method#answer#0;class#Question#0" />
-            <element signature="docComment;method#evaluateAnswer#0;class#Question#0" />
-            <element signature="docComment;method#getMark#0;class#Question#0" />
-            <element signature="docComment;method#setMark#0;class#Question#0" />
-            <element signature="docComment;method#getScore#0;class#Question#0" />
-            <element signature="docComment;method#equals#0;class#Question#0" />
-            <element signature="method#equals#0;class#Question#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuestionMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -731,10 +735,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="136">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
-            <element signature="e#0#13686#0" expanded="true" />
             <element signature="docComment;field#iQuestions#0;class#Test#0" />
             <element signature="docComment;field#scoreStrategy#0;class#Test#0" />
             <element signature="docComment;field#startTime#0;class#Test#0" />
@@ -777,39 +780,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestBetterStatistics.java">
+    <entry file="file://$PROJECT_DIR$/src/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="175">
+          <caret line="144" column="13" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="13" />
           <folding>
-            <element signature="e#0#3585#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
-            <element signature="method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
-            <element signature="method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#percentageCorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="method#percentageCorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#percentageIncorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="method#percentageIncorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
-            <element signature="method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
-            <element signature="docComment;method#meanTimePerQuestion#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#Question#0;class#Question#0" />
+            <element signature="method#Question#0;class#Question#0" />
+            <element signature="docComment;method#getTitle#0;class#Question#0" />
+            <element signature="docComment;method#setTitle#0;class#Question#0" />
+            <element signature="docComment;method#getQuestion_description#0;class#Question#0" />
+            <element signature="docComment;method#setQuestion_description#0;class#Question#0" />
+            <element signature="method#setQuestion_description#0;class#Question#0" />
+            <element signature="docComment;method#getQuestion_metadata#0;class#Question#0" />
+            <element signature="docComment;method#setQuestion_metadata#0;class#Question#0" />
+            <element signature="method#setQuestion_metadata#0;class#Question#0" />
+            <element signature="docComment;method#isDone#0;class#Question#0" />
+            <element signature="docComment;method#setDone#0;class#Question#0" />
+            <element signature="method#setDone#0;class#Question#0" />
+            <element signature="docComment;method#answer#0;class#Question#0" />
+            <element signature="method#answer#0;class#Question#0" />
+            <element signature="docComment;method#evaluateAnswer#0;class#Question#0" />
+            <element signature="e#3685#3686#0" expanded="true" />
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="docComment;method#getMark#0;class#Question#0" />
+            <element signature="docComment;method#setMark#0;class#Question#0" />
+            <element signature="docComment;method#getScore#0;class#Question#0" />
+            <element signature="docComment;method#equals#0;class#Question#0" />
+            <element signature="method#equals#0;class#Question#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestStatistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" selection-start-line="18" selection-end-line="21" />
+        <state relative-caret-position="-167">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#0#4860#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="method#meanTimePerAnswer#0;class#TestStatistics#0" />
             <element signature="method#standardDeviationTimePerAnsewer#0;class#TestStatistics#0" />
             <element signature="docComment;method#correctAnswerPecentage#0;class#TestStatistics#0" />
             <element signature="docComment;method#incorrectAnswerPecentage#0;class#TestStatistics#0" />
@@ -818,6 +825,27 @@
             <element signature="method#incorrectAnswer#0;class#TestStatistics#0" />
             <element signature="method#incorrectAnswers#0;class#TestStatistics#0" />
             <element signature="method#correctAnswers#0;class#TestStatistics#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestBetterStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+            <element signature="method#numberOfCorrectQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+            <element signature="method#totalNumberOfQuestionsMultipleChoice#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#percentageCorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#percentageIncorrectMultipleChoiceQuestions#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
+            <element signature="method#percentageNumberOfNumericQuestions#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
+            <element signature="method#totalTimeTestInSeconds#0;class#TestBetterStatistics#0" />
+            <element signature="docComment;method#meanTimePerQuestion#0;class#TestBetterStatistics#0" />
           </folding>
         </state>
       </provider>

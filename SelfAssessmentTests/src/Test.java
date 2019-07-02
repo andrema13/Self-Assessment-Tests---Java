@@ -13,7 +13,6 @@ import interfaces.models.IQuestion;
 import interfaces.models.IQuestionMultipleChoice;
 import interfaces.models.IQuestionNumeric;
 import interfaces.models.IQuestionYesNo;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;

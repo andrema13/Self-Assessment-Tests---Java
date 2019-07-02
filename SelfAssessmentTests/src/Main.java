@@ -104,7 +104,7 @@ public class Main {
      */
     private static void TestC() throws TestException {
         System.out.println("Test Started!");
-        ITest demoTest = new MultipleChoiceTest();
+        ITest demoTest = new Test();
         TestWindow testWindow = new TestWindow();
         AllTests tests = new AllTests();
 
