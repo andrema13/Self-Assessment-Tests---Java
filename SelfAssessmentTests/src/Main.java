@@ -29,6 +29,7 @@ public class Main {
                 break;
             case "3":
                 TestC();
+                break;
             default:
                 System.out.println("Wrong Choice!");
                 break;

@@ -373,7 +373,7 @@ public class Test implements ITest {
      * Gets all the questions of the test
      * @return all questions(array) in the test
      */
-    public Question[] getAllQuestions() {
+    protected Question[] getAllQuestions() {
         return iQuestions;
     }
 
